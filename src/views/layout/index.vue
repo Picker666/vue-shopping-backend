@@ -22,7 +22,7 @@ export default {
   },
   data: function () {
     return {
-      isCollapse: true
+      isCollapse: false
     }
   },
   methods: {

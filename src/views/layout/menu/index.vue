@@ -2,7 +2,7 @@
   <div>
     <div :class="isCollapse ? 'close' : 'open'">
       <el-menu
-        :default-active="$router.path || '/'"
+        :default-active="$route.path"
         class="el-menu-vertical-demo"
         @open="handleOpen"
         @close="handleClose"
